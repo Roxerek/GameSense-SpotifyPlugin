@@ -1,0 +1,13 @@
+pl\roxerek\splugin\ProcessesManager.class
+pl\roxerek\splugin\CorePropsManager.class
+pl\roxerek\splugin\ActionsHandler.class
+pl\roxerek\splugin\SystemTrayImpl.class
+pl\roxerek\splugin\ProcessesManager$1.class
+pl\roxerek\splugin\SongFetchThread.class
+pl\roxerek\splugin\Main.class
+pl\roxerek\splugin\ProcessesManager$Psapi.class
+pl\roxerek\splugin\ProcessesManager$User32$WNDENUMPROC.class
+pl\roxerek\splugin\GsonUtil.class
+pl\roxerek\splugin\ProcessesManager$Kernel32.class
+pl\roxerek\splugin\ProcessesManager$User32.class
+pl\roxerek\splugin\FileUtil.class
