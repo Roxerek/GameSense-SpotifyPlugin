@@ -17,7 +17,7 @@ public class SongFetchThread {
                 String song = ProcessesManager.getCurrentSong();
                 String[] songInfo = song.contains(" - ") ? song.split(" - ") : new String[]{"Spotify status", "Idling..."};
                 System.out.println("Sending " + songInfo[0] + " " + songInfo[1]);
-                actionsHandler.sendGameEvent(GsonUtil.toJson("ADVENTURE", "FINAL99", songInfo[0], songInfo[1]));
+                actionsHandler.sendGameEvent(GsonUtil.toJson("SPOTYPLUG", "UPDATE_SONG", songInfo[0], songInfo[1]));
             }else {
                 System.out.println("[INFO] Process has changed");
             }
