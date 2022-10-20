@@ -13,9 +13,8 @@ public class GsonUtil {
         gson = new Gson();
     }
 
-    @SuppressWarnings("unchecked")
-    public static HashMap<String, String> fromJson(String json){
-        return gson.fromJson(json, HashMap.class);
+    public static <T> T fromJson(String json, Class<T> classOfT){
+        return gson.fromJson(json, classOfT);
     }
 
     public static String toJson(String game, String event, String firstLine, String secondLine){
